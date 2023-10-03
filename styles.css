@@ -34,7 +34,7 @@
     align-items: center;
     text-align: center;
   
-    background-color: var(--cg-black);
+    background-color:lightgray;
     color: var(--cg-white);
     padding: 0px 0px;
   
@@ -54,8 +54,8 @@
   }
   
   .navbar a {
-    color: var(--cg-white);
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
     margin: 0 12px;
     text-decoration: none;
     letter-spacing: 2px;
@@ -261,4 +261,15 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+  }
+
+  .outiblog-pic {
+    width: 30%;
+    height: 30%;
+  }
+
+
+  .more-blogs{
+    display: flex;
+    align-items: center;
   }
